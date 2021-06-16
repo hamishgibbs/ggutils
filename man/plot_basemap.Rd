@@ -7,10 +7,10 @@
 plot_basemap(
   countryname = NULL,
   world_fill = "transparent",
-  world_size = 0.1,
+  world_size = 0.05,
   world_color = "black",
   country_fill = "transparent",
-  country_size = 0.5,
+  country_size = 0.1,
   country_color = "black"
 )
 }

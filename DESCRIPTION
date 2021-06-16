@@ -22,4 +22,6 @@ Imports:
     RColorBrewer,
     ggplot2,
     sf,
-    rlang
+    rlang,
+    scales,
+    dplyr
