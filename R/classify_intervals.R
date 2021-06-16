@@ -1,6 +1,7 @@
 #' @title classify_intervals
 #'
 #' @description Function to classify data in custom intervals
+#' @import dplyr
 #'
 #' @param data data.frame, input data.frame
 #' @param value string, variable name of value to classify
@@ -12,20 +13,6 @@
 #' @return data.frame
 #'
 #' @export
-
-
-label_interval <- function(breaks,
-                           sym_start,
-                           sym_sep,
-                           sym_end) {
-  paste0(sym_start,
-         scales::comma(breaks[1:length(breaks) - 1]),
-         sym_sep,
-         scales::comma(breaks[2:length(breaks)]),
-         sym_end
-  )
-
-}
 
 classify_intervals <- function(data,
                                value,
