@@ -11,22 +11,22 @@
 #'
 #' @export
 
-summarise_ci <- function(data, 
-                         group_variables, 
-                         summary_variable, 
+summarise_ci <- function(data,
+                         group_variables,
+                         summary_variable,
                          ci = c(0.1, 0.9, 0.4, 0.6, 0.25, 0.75)){
-  
+
   .vars <- rlang::syms(group_variables)
-  
+
   p_names <- map_chr(ci, ~paste0("ci_", .x*100))
-  
-  p_funs <- map(ci, ~partial(quantile, probs = .x, na.rm = TRUE)) %>% 
+
+  p_funs <- map(ci, ~partial(quantile, probs = .x, na.rm = TRUE)) %>%
     set_names(nm = p_names)
-  
-  data <- data %>% 
-    group_by(!!! .vars) %>% 
-    summarize_at(vars("perc_difference"), .funs = p_funs)
-  
+
+  data <- data %>%
+    group_by(!!! .vars) %>%
+    summarize_at(vars(!! sym(summary_variable)), .funs = p_funs)
+
   return(data)
-  
+
 }
