@@ -3,6 +3,7 @@
 export(basemap)
 export(geo_lims)
 export(ggsave_png_pdf)
+export(label_interval)
 export(plot_basemap)
 export(qualitative_pal)
 export(summarise_ci)
