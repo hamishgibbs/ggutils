@@ -10,7 +10,7 @@
 
 qualitative_pal <- function(labels){
 
-  qual_col_pals <-  brewer.pal.info[brewer.pal.info$category == 'qual',]
+  qual_col_pals <-  RColorBrewer::brewer.pal.info[RColorBrewer::brewer.pal.info$category == 'qual',]
 
   base_pal <- unlist(mapply(RColorBrewer::brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
 

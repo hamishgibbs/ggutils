@@ -14,8 +14,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Suggests: 
-    testthat,
-    covr
+    testthat
 Imports: 
     rnaturalearth,
     rnaturalearthdata,
@@ -24,4 +23,5 @@ Imports:
     sf,
     rlang,
     scales,
-    dplyr
+    dplyr,
+    classInt
