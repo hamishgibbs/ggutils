@@ -1,6 +1,6 @@
 #' @title geo_lims
 #'
-#' @description Define plot lims using a spatial object
+#' @description Define plot limits using a spatial object
 #'
 #' @param object data.frame, Combined mobility data.
 #' @param zoom_x x zoom

@@ -1,8 +1,8 @@
 #' @title basemap
 #'
-#' @description Function to return basemap data
+#' @description Function to return base map data
 #'
-#' @param countryname string, name of basemap area.
+#' @param countryname string, name of base map area.
 #'
 #' @return sf object
 #'

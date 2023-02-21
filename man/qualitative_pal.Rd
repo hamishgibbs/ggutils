@@ -7,7 +7,7 @@
 qualitative_pal(labels)
 }
 \arguments{
-\item{labels}{string vector, name to be symbolised.}
+\item{labels}{string vector, name to be symbolized.}
 }
 \value{
 named character vector.
