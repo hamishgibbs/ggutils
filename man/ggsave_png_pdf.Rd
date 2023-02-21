@@ -2,14 +2,14 @@
 % Please edit documentation in R/ggsave_png_pdf.R
 \name{ggsave_png_pdf}
 \alias{ggsave_png_pdf}
-\title{Save a pdf and png image with identical path and filename}
+\title{Save a pdf and png image with identical path and file name}
 \usage{
 ggsave_png_pdf(p, path, width = 8.5, height = 6)
 }
 \arguments{
 \item{p}{ggplot object, ggplot object to be saved}
 
-\item{path}{character, output pdf filepath}
+\item{path}{character, output pdf file path}
 
 \item{width}{numeric, output figure width (inches)}
 
@@ -19,5 +19,5 @@ ggsave_png_pdf(p, path, width = 8.5, height = 6)
 none
 }
 \description{
-Save a pdf and png image with identical path and filename
+Save a pdf and png image with identical path and file name
 }

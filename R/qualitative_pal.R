@@ -2,7 +2,7 @@
 #'
 #' @description Function to define a palette of distinct colors
 #'
-#' @param labels string vector, name to be symbolised.
+#' @param labels string vector, name to be symbolized.
 #'
 #' @return named character vector.
 #'

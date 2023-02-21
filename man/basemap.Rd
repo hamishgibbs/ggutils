@@ -7,11 +7,11 @@
 basemap(countryname = "world")
 }
 \arguments{
-\item{countryname}{string, name of basemap area.}
+\item{countryname}{string, name of base map area.}
 }
 \value{
 sf object
 }
 \description{
-Function to return basemap data
+Function to return base map data
 }

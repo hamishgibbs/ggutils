@@ -1,8 +1,8 @@
-#' Save a pdf and png image with identical path and filename
+#' Save a pdf and png image with identical path and file name
 #'
 #' @import ggplot2
 #' @param p ggplot object, ggplot object to be saved
-#' @param path character, output pdf filepath
+#' @param path character, output pdf file path
 #' @param width numeric, output figure width (inches)
 #' @param height numeric, output figure height (inches)
 #' @return none

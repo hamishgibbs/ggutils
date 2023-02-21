@@ -17,5 +17,5 @@ geo_lims(object, zoom_x = 0, zoom_y = 0)
 list
 }
 \description{
-Define plot lims using a spatial object
+Define plot limits using a spatial object
 }

@@ -1,8 +1,8 @@
 #' @title plot_basemap
 #'
-#' @description Plot a gloabl basemap with optional country focus map
+#' @description Plot a global base map with optional country focus map
 #'
-#' @param countryname string, name of basemap area.
+#' @param countryname string, name of base map area.
 #' @param world_fill string, fill color of world data. Defaults to 'transparent'.
 #' @param world_size float, line thickness of world data. Defaults to 0.5.
 #' @param world_color string, line color of world data. Defaults to 'black'.

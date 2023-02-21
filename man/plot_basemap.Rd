@@ -15,7 +15,7 @@ plot_basemap(
 )
 }
 \arguments{
-\item{countryname}{string, name of basemap area.}
+\item{countryname}{string, name of base map area.}
 
 \item{world_fill}{string, fill color of world data. Defaults to 'transparent'.}
 
@@ -33,5 +33,5 @@ plot_basemap(
 list
 }
 \description{
-Plot a gloabl basemap with optional country focus map
+Plot a global base map with optional country focus map
 }
